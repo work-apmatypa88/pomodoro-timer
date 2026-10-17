@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro</title>
+  <style>
+    body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; background: #1e1e2e; color: #f5f5f5; }
+    main { text-align: center; }
+    #time { font-size: 6rem; font-variant-numeric: tabular-nums; margin: 0.5rem 0; }
+    button { font-size: 1rem; padding: 0.6rem 1.4rem; margin: 0 0.3rem; border: 0; border-radius: 6px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="phase">Focus</div>
+    <div id="time">25:00</div>
+    <button id="start">Start</button>
+    <button id="reset">Reset</button>
+  </main>
+  <script type="module" src="dist/main.js"></script>
+</body>
+</html>
